@@ -1,0 +1,17 @@
+Files:
+
+1) pde_solver.py - Solution of (heat eqution) PDE as time progresses - Magnitude of u or temperature
+2) pde_solver1.py - Solution of (heat equation) PDE when iterated in the forward direction and in the reverse direction
+3) pde_gen.py - This code solves any 2nd order PDE of the form:	(A*uxx) + (B*uxy) + (C*uyy) + (D*ux) + (E*uy) + (F*u) = G,
+				where uxx means 2nd partial derivative of u along x-axis and similarly other notations 
+				and A,B,C,D,E,F and G are real numbers
+4) pde_monte.py - This code gives an approximate Monte-Carlo solution to the heat equation with the same initial and boundary conditions
+
+Also attached are the figures of graphs associted with each of the codes.
+
+Usage: (Example given only for the code "pde_solver.py")
+
+In Linux terminal, just type (in the direcotory containing the file):
+python pde_solver.py
+
+Similarly for the other 3 codes too.
